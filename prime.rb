@@ -2,6 +2,11 @@ def prime?(number)# Add  code here!
  if number <= 1
    return FALSE
  end 
- 
- while number
+ counter = 2
+ while counter =! number
+    if (number % counter == 0)
+        return FALSE
+    end
+ end
+return TRUE
 end
