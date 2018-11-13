@@ -3,7 +3,7 @@ def prime?(number)# Add  code here!
    return FALSE
  end 
  counter = 2
- while counter =! number
+ while counter < number
     if (number % counter == 0)
         return FALSE
     end
